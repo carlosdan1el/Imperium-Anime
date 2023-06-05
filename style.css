@@ -1,0 +1,263 @@
+body
+{
+	background:  #d3d3d3;
+}
+#logo
+{
+	display: flex;
+    justify-content: top;
+    height: 300px;
+    width: 100%;
+    border: 3px solid black;
+}
+nav li
+{
+	display: inline;
+	margin: 0 0 0 30px;
+
+}
+nav a 
+{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-style: 20px;
+	text-decoration: none;
+}
+nav a:hover
+{
+	color: #FFA500;
+
+}
+.corpo
+{
+	background: #FFF;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}
+.recentes img
+{
+	width: 250px;
+	height: 250px;
+
+
+}
+.recentes img:hover
+{
+
+	opacity: 50%;
+}
+
+figure
+{
+	display: inline-block;
+	margin: 20px;
+	border: 1px solid black;
+}
+
+figure:hover{
+	background: black;
+	color: white;
+}
+
+h1
+{
+
+	text-transform: uppercase;
+	font-weight: bold;
+	font-style: 20px;
+	text-align: center;
+}
+h1 a 
+{
+	text-decoration: none;
+	color: black;
+
+}
+h2
+{
+	text-align: right;
+	font-weight: bold;
+	font-style: 20px;
+
+}
+h2 a 
+{
+	text-decoration: none;
+	color: black;
+}
+footer
+{
+	background: #a9a9a9;
+	padding: 20px;
+  	margin-top: 60px;
+  	margin-left: -6px;
+  	margin-right: -6px;
+  	margin-bottom: -6px;
+}
+	
+#rodape
+{
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+p
+{
+	font-size: 20px;
+	text-align: center;
+}
+/*css da pagina de lançamentos*/
+#home
+{
+	color: #FFA500;
+
+}
+#recomendados
+{
+	color: #FFA500;
+}
+#lançamentos
+{
+	color: #FFA500;
+}
+#nova-temporada
+{
+	color: #FFA500;
+}
+#populares
+{
+	color: #FFA500;
+}
+#mangas
+{
+	color: #FFA500;
+}
+#contatos
+{
+	color: #FFA500;	
+}
+#cadastro
+{
+	color: #FFA500;	
+}
+#sobre-nos
+{
+	color: #FFA500;	
+	
+}
+
+#dov
+{
+    width: 300px;
+    height: 350px;
+
+}
+.titulo
+{
+	text-align: left;
+	font-family: Copperplate Gothic, sans-serif;
+}
+.marginal
+{
+	position: relative;
+}
+.marg2
+{
+	position: absolute; 
+	top: 0; 
+	left: 25%;
+
+}
+
+/*css da pagina de cadastro*/
+form
+{
+	max-width: 500px;
+	margin: auto;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="date"], input[type="tel"]
+{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+}
+input[type="submit"]
+{
+	display: block;
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: 0.5s all;
+}
+input[type="submit"]:hover
+{
+	background-color: #555;]
+	transform: scale(1.2);
+}
+/*css da pagina de contatos*/
+.contatos
+{
+	max-width: 500px;
+	margin: auto;
+	background-color: #f2f2f2;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.socias
+{
+	padding: 3%;
+	display: block;
+	width: 10%;
+	height: 10%;
+}
+#Github
+{
+	color:black;
+	text-decoration: none;
+}
+/*css da pagina sobre nos*/
+#select
+{
+	text-align: left;
+}
+legend
+{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+.mapa
+{
+	text-align: center;
+
+}
+.img_mapa
+{
+	width:500px;
+	height:450px;
+}
+.titulo_mapa
+{
+	text-align: center;
+	font-family: Copperplate Gothic, sans-serif;
+
+}
