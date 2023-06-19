@@ -32,7 +32,7 @@ nav a:hover
 .corpo
 {
 	background: #FFF;
-	width: 90%;
+	width: 85%;
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 10px;
@@ -41,10 +41,8 @@ nav a:hover
 }
 .recentes img
 {
-	width: 250px;
-	height: 250px;
-
-
+	width: 200px;
+	height: 200px;
 }
 .recentes img:hover
 {
@@ -55,7 +53,7 @@ nav a:hover
 figure
 {
 	display: inline-block;
-	margin: 20px;
+	margin: 30px;
 	border: 1px solid black;
 }
 
@@ -78,17 +76,35 @@ h1 a
 	color: black;
 
 }
+button
+{
+	display: block;
+	background-color: #333;
+	padding: 5px 10px;
+	margin-left: 88%;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 1s all;
+
+}
+button:hover 
+{
+  	background-image: linear-gradient(to right, black, grey);
+	
+}
+
 h2
 {
 	text-align: right;
 	font-weight: bold;
-	font-style: 20px;
+	font-size: 16px;
 
 }
 h2 a 
 {
 	text-decoration: none;
-	color: black;
+	color: #fff;
 }
 footer
 {
@@ -151,7 +167,7 @@ p
 	
 }
 
-#dov
+.dov
 {
     width: 300px;
     height: 350px;
@@ -165,13 +181,14 @@ p
 .marginal
 {
 	position: relative;
+
 }
 .marg2
 {
 	position: absolute; 
 	top: 0; 
-	left: 25%;
-
+	left: 30%;
+	
 }
 
 /*css da pagina de cadastro*/
@@ -209,8 +226,8 @@ input[type="submit"]
 }
 input[type="submit"]:hover
 {
-	background-color: #555;]
-	transform: scale(1.2);
+	background-color: #555;
+	
 }
 /*css da pagina de contatos*/
 .contatos
@@ -259,5 +276,57 @@ legend
 {
 	text-align: center;
 	font-family: Copperplate Gothic, sans-serif;
+
+}
+/*RESPONSIVO*/
+/* estilos para telas menores que 480 pixels */
+@media (max-width: 480px) 
+{
+	 #logo
+	{
+	   height: 150px;
+	}
+	nav li
+	{
+	    display: block;
+	    margin: 10px 0;
+	    text-align: center;
+	} 
+	nav a 
+	{
+	    font-size: 16px;
+	}
+	.recentes img 
+	{
+	    width: 100%;
+	    height: auto;
+	}
+	figure 
+	{
+	    margin: 10px;
+	}
+	h1 
+	{
+	    font-size: 24px;
+	} 
+	h2 
+	{
+	    font-size: 16px;
+	} 
+	footer 
+	{
+	    font-size: 16px;
+	}
+	.marginal
+	{
+		position: relative;
+
+	}
+	.marg2
+	{
+		position: absolute; 
+		top: 0; 
+		left: 50%;
+	}
 
 }
